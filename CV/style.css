@@ -1,0 +1,78 @@
+body {
+    background-color: #fcfbf4;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.ttl{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-family: sans-serif;
+    font: bold;
+    font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 300px;
+    padding: 50px;
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.pic{
+    border-style: groove;
+    border-radius: 50%;
+}
+
+.redes{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+
+}
+
+
+.logo{
+    height: 50px;
+    xlink:href="https://www.instagram.com/_mcs0s_/"
+}
